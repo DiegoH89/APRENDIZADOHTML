@@ -1,0 +1,70 @@
+#primeiro_titulo{
+    background-attachment: fixed;
+    color: darkorchid;
+    text-align: center;
+    font-style: initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#nosso_objetivo{
+    text-align: justify;
+    text-align: center;
+    font-size:medium;
+}
+#logo_empresa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagem_net{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.3;
+}
+#como_disse1{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#como_disse2{
+    background-color: green;
+
+}
+#codigo{
+    background-color: black;
+    color: #ffff;
+}
+#addj{
+    text-align: end;
+}
+#corpo{
+   background-color: rgb(69, 201, 201);
+   
+}
+#instagram{
+    text-align: justify;
+    text-align: center;
+}
+#zap{
+    text-align: justify;
+    text-align: center;
+}
+#parceria{
+    text-align: justify;
+    text-align: center;
+}
+#fundo{
+    background-color: darkorchid;
+}
+
+input:invalid{
+    animation: shake .2s ease-in-out 0s 2;
+    border: solid 2px #dc2626;
+}
+
+@keyframes shake{
+    0%{ transform: translateX(0rem)}
+    25%{ transform: translateX(-0.5rem)}
+    75%{ transform: translateX(0.5rem)}
+    100%{ transform: translateX(0rem)}
+}
